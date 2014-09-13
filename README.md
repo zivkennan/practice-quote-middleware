@@ -17,7 +17,7 @@ of quotes. A sample fixture has been added for quotes by
 * Use Bundler for gem dependencies
 * Adhere to the standards of Rack and middleware
 * Code is tested with RSpec
-* Quotes come from example in /fixtures/*.txt
+* Quotes come from examples in fixtures directory
 
 
 ### Request/Response
