@@ -7,9 +7,12 @@ A practice designed to learn more about Rack middleware and
 
 ### Goal
 
-Create a Rack middleware that serves random quotes. The middleware, when
-complete, can be inserted into an existing application to provide a fun set
-of quotes. A sample fixture has been added for quotes by
+Rack is a minimal and modular interface for developing web applicatons.
+Rack middleware is a extension that sits between an HTTP request and an
+application, thus the middleware term. You goal is to create a Rack
+middleware that serves random quotes. The middleware, when complete, can
+be inserted into an existing application to provide a fun set of quotes.
+A sample fixture has been added for quotes by
 [Ricky Gervais](http://www.rickygervaisquotes.com/).
 
 
