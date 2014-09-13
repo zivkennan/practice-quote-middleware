@@ -1,7 +1,8 @@
 Practice: Rack Middleware
 =========================
 
-A practice designed to learn more about Rack middleware.
+A practice designed to learn more about Rack middleware and
+[Ricky Gervais Quotes](http://www.rickygervaisquotes.com/).
 
 
 ### Goal
