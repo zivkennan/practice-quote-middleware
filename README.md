@@ -7,11 +7,19 @@ Intro
 Refer to INSTRUCTIONS.txt for more details - this middleware allows your Rack app to server randomized Ricky Gervais quotes on /quotes
 
 TODO:
--Add bundler dependencies
--Add rpsec spec
 -Add rack middleware class
--Iterate fucntionality to specified level
+-Iterate functionality to specified level
 -Rinse, wash, repeat
 
 Completed:
-...
+-Add bundler dependencies (initial)
+-Add rspec spec (empty)
+
+
+Running
+-------
+TODO
+
+Testing
+-------
+run 'bundle exec rspec spec'
