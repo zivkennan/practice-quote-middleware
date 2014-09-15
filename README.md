@@ -39,6 +39,8 @@ It is just a demo, and would require some revision for me to feel comfortable wi
 Running
 -------
 
+run `gem install bundler` if you do not have bundler already
+run `bundle install`
 run `bundle exec rackup config.ru`
 
 Testing
