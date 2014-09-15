@@ -2,15 +2,17 @@ class FileQuoteSource
    def initialize
       @@quotes = []
       begin
-         f = File.open("fixtures/rickygervais.txt", "r")
+         Dir.glob("fixtures/*.txt").each do |filename|
+            f = File.open(filename, "r")
             f.each_line do |line|
                @@quotes.push line.strip
             end
-         f.close
-       rescue
-          puts "Quote source file not found, or read error, defaulting to boring single quote."
+            f.close
+          end
+      rescue
+          puts "Quote source file(s) not found, or read error, defaulting to boring single quote."
           @@quotes.push "Boring quote."
-       end
+      end
    end
 
    def GetRandomQuote

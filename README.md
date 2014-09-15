@@ -12,9 +12,9 @@ Completed:
 -Add bundler dependencies 
 -Add rspec spec
 -Implement middleware functionality, deps, and basic spec
+-Read any text file i.e. fixtures/*.txt
 
 Todo:
--Read any text file i.e. fixtures/*.txt
 -Restrict behavior to only respond to request on /quote
 -Comply with rack specification when app is in middle of stack
 
